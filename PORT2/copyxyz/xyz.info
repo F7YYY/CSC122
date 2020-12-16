@@ -1,8 +1,0 @@
-Class: CSC122 - 002
-Lab: CopyXYZ
-Base Level: 1
-Bonus Levels: 3.5
-Total Levels: 4.5
-Description: In this program, it takes a file and its text inside it and copies
-to another file. The other file is created by running this program.
-It also ignores an y comments, and blank spaces.
