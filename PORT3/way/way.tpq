@@ -1,0 +1,16 @@
+1) What things might cause your new sort template to fail to instantiate?
+    - It my not work when becuase sometimes the paramenters are wrong.
+
+2) Where should the overloaded swap form go? If in the library,
+should it be in the header with the swap template or the implementation file?
+Does it matter to the compiler where it is? Why/Why not?
+    - No overload swap was implemented however if so then yes, it should go in
+    the header file because when we compile the program, it compiles the .hpp
+    file itself.
+
+3) Did you need to make any changes to your original swap template?
+    - No
+
+4) Which comparisons did you write as plain functions? Function objects? Were
+any of them templated? Could/Should they have been?
+    - They all should templated since they where written that way.

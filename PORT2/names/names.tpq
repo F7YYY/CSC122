@@ -1,0 +1,12 @@
+1)    How do you handle not knowing how much data is in the file?
+    - Size doesn't matter the program will find the name in the list eventually
+
+2)    What kind of loop do you use to process the file?
+    - Bool to check then proccess by while loop till eof.
+
+3)    What do you do if the person isn't found in the file?
+    - Report name invalid then loop back to ask for retry.
+
+4)    Can there be more than one name on a single file line?
+(Will your program handle it?)
+    - This program was designed for a list of names therefore no.

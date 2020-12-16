@@ -1,0 +1,7 @@
+Class: CSC122 - 002
+Lab: A BOX Upon Ye!
+Program: 5
+Bonus Levels: 1.5 choice of frame types: single line, double line, or shaded.
+Total Levels: 6.5
+Description: This program reads a phrase from the user and create a frame
+around the user input and displays that out either console or text file.

@@ -1,0 +1,19 @@
+1) How can you easily determine the widest that the columns need to be?
+(Hint: See this page about calculating the number of digits in a whole number.)
+    - The easiest way to determine the width is to use setw() functions.
+
+2) Once you know the width of a column, how can you determine whether a table
+will fit on the screen?
+    - We can determine weather a table will fit on the sccreen or not by just
+    working the way through and debugging the code.
+
+3) How can you get the columns to line up so nice and neat?
+    - Again, we can just use the function setw();
+
+4) How can you get your menu to accept both character and numeric input like
+that? (Hint: You don’t need to resort to peek here!)
+    - In the if else function the paremeters always need to accept numberic
+    and chars.
+
+5) Do you need any flags to get your columns to line up neatly?
+    - No we dont need any flags.

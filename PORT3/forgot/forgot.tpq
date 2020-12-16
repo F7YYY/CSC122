@@ -1,0 +1,8 @@
+1) Should this operator be a member or nonmember?
+    - Non-member, so we do not need to modify the original string.
+
+2) Should it be applicable to constant strings?
+    - The string is constant, so it doesn’t get changed.
+
+3) Where might such an operator come in handy? (Maybe on a previous lab?)
+    - With operators overloadings.

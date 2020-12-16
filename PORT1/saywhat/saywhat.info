@@ -1,0 +1,12 @@
+Class for which Program Was Written: CSC122-002
+
+Program Title & Type: SayWhat.cpp
+
+Levels Attempted: 9
+4: Say WHAT?! Program
+3: Specify and choose the text file's name.
+2: Allow the user the option of ignoring HTML tags in the text.
+
+Program Description: My program calculates the Index, Words, Syllables,
+and Sentences from either the user's written responce or text file while while
+ignoring html tags.

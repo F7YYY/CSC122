@@ -1,0 +1,45 @@
+1) How can you pass a prompt or error message to a function as an argument?
+	- We can pass the sting error or return a number as a parameter.
+
+2) How do you pass a string to a function? Will the strings need to be changed
+here? What care do you need to take for these arguments, then?
+	- We can use parameters to pass it to a function without strings.
+
+3) How do you pass a list of values to a function? (Warning! There could be two
+   [related] answers!) Will the elements need to be changed here? What care do
+   you need to take for these arguments, then?
+	- We can use the list's name into a function by using a parameter.
+
+4) What other arguments does each function take? Are they changed?
+   What special care should you take with them?
+	- Double, char, long, short, int, float, vector and an array.
+
+5) What value is returned by your functions?
+   What type is it and what does it represent?
+	- The function returns value, it might even return a string or even a chat.
+		And also true or false.
+
+6) What care does a caller of your functions have to take with this return
+   value? (Can they immediately assume it is a valid entry?)
+	- We need to pass the correct information in-order to work properly.
+
+7) How does the compiler distinguish which of your functions is being used for
+   a particular call? (They ALL have the same name, after all...)
+	- Its the job of the compiler to decides based on its parameters.
+		A double caller needs a decimal while int needs a while number.
+
+8) How do you protect your library from being circularly included?
+	- Use #ifndef and unique name to compiler #define unique name to the
+		compiler and to close its #endif
+
+9) What changes are needed in your main application (the test application here)
+	to get it to work with the library? What about the compiling process?
+	- We need to include its library name in the main file to work.
+		Additionally we must compile main and library file at the same time.
+
+10) How many files does your library consist of? What are they? Which one(s) do
+	you #include?
+	- It consist of of 2 different files. The one is implementation has all the
+		functions and the other file which is header file which is consist of
+		all the header files, prototypes. I #include the main file and
+		implementation file.

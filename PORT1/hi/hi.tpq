@@ -1,0 +1,25 @@
+Thought Provoking Questions
+
+1)    How do you compare two characters without reference to case?
+	How might you do this without destroying character variable(s) content?
+    - Making the strings constant and checking each string's character with ==.
+
+2)    How can you compare 2 strings in case-insensitive way without destroying
+	their contents? (Without changing the strings to compare them!)
+    - Making each string a constant and reference check each string's character
+	with toupper or tolower.
+
+3)    What kind of arguments should your string comparison function take?
+    - For loop to iderate the string's length and if statements to compare and
+	skip each character to return 1,0,-1.
+
+4)    How do you get that weird return value for your function?
+	Is it always -1, 0, 1? Or is there a reason it was defined as simply
+	less than 0, 0, or greater than 0?
+    - If statements check the strings case and characters to return determined
+	values (-1, 0, 1).
+
+5)    How many times will you need to call your function to test it thoroughly?
+	How many times should you have to run the driver to do this testing?
+    - Should only be ounce for each string, though with my implementation as
+	many times it takes to iderate through each string.

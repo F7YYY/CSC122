@@ -1,0 +1,10 @@
+Class: CSC122 - 002
+Lab: Hide 'n' Go Seek
+Base Levels: 1.5
+Bonus Levels: 1.5 Loop in main to so user can search multiple times before quit
+Bonus Levels: 1 Match not on the whole string but on any substring match.
+Bonus Levels: .5 Print all matches in the file instead of just the first one found.
+Bonus Levels: .5 Name's position print nicely (1st, 2nd, 3rd, 4th, ...).
+Total Levels: 5
+Description: Allows the user to search through a list of names stored in a file
+for a particular one.

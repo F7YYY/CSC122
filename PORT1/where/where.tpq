@@ -1,0 +1,33 @@
+Thought Provoking Questions
+
+1)    What arguments does each find function take? Are they changed?
+	What special care should you take with them?
+    - Just a main function thats using a simple if statement with a find
+	function to return position.
+
+2)    What value is returned by your functions?
+	What type is it and what does it represent?
+    - The character specified to search within the string is an integer
+	position number.
+
+3)    What does a caller of your functions have to take with this return value?
+	(i.e. Can they immediately assume it is a valid index?)
+    - Long function: to take both strings and return a long.
+	User will have to +1 to the value because starting index is 0.
+
+4)    How does the compiler distinguish which of your functions is being used
+	for a particular call? (They have the same name, after all...)
+    - By what being referenced and the operations done in each function.
+
+5)    How do you protect your library from being circularly included?
+    - Confirm each header can be included on its own with forward declarations.
+
+6)    What changes are needed in your main application
+	(the test application here) to get it to work with the library?
+	What about the compiling process?
+    - #inlcude "customlibary.h".
+	Compile just the cpp files alone and not the .h/.hpp file.
+
+7)    How many files does your library consist of? What are they? Which one(s)
+	do you #include?
+    - None, did not need any it was too easy without.

@@ -1,0 +1,38 @@
+1) What 3 new methods will you need to add to handle the dynamic memory?
+    - Expanding vector, dynamic allocator, deletetion of new set (cleanup).
+
+2) Why do all the current methods pass Set objects as constant references?
+    - Stop overriding the new values unintentionally.
+
+3) When is a copy constructor called?
+    - When either the object of the class is returned by value or the same
+    object is constructed based on another object of the same class.
+
+4) When is a destructor called?
+    - When the object is allocated using the new operator to be deallocated
+    using delete.
+
+5) When is an assignment operator called?
+    - When an already existing object needs to be assigned new values of
+    longs integers.
+
+6) How do the assignment operator and copy constructor differ?
+    - The copy constructor is called when a new object is created from an
+    existing object, as a copy of the existing object. While assignment
+    operator is called when an already initialized object is assigned a
+    new value from another existing object. 
+
+7) How are the assignment operator and the destructor similar?
+    - Both destroy the old data.
+
+8) What auxiliary method(s) might you employ to keep down the duplication of
+code in your class? (*cough* alloc *cough* destroy)
+    - Deletion of the_set when the new data is allocated to the max_set
+    successfully.
+
+9) Will you need to add any code to the existing methods? Why/why not?
+    - Not all the methods but yes, 2 more functions needed to be implemented
+    to set.cpp/hpp.
+    set.cpp (Expands, adds and checks the set to the new set of data before
+    deletion).
+    set.hpp (Allow a dynamic vector instead of an array).

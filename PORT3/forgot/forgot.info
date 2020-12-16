@@ -1,0 +1,5 @@
+Lab: Oops! We forgot something.
+Levels: 2
+Description: In this program the user enters a sentence. And the user also ask
+where in the char would they like to start the display and where would sit end.
+Later the program ouputs the sentence that was requested by the user.

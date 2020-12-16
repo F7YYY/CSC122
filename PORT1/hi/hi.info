@@ -1,0 +1,13 @@
+Class for which Program Was Written: CSC122-002
+
+Program Title & Type: hi.cpp
+
+Levels Attempted: 7.5
+1.5: HI==hi Program
+1: Adds 2 arguments which skips spaces &&|| punctuation when comparing.
+2: Sort properly without leading zeros.
+3: Sort properly when they aren't in the lead of the string.
+
+Program Description: My program compares the string length and size to [-1,0,1]
+after specifying whether to skip spaces or punctuation. If numbers are included
+it will find the difference between both strings.
